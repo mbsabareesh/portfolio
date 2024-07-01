@@ -254,7 +254,7 @@ span{
     transition: 0.3 ease;
 }
 .social a:hover{
-    transform: scale(1.2) translateY(-20px);
+    transform: scale(1.2);
     color: rgba(12, 231, 12, 0.934);
     border: 2px solid rgba(12, 231, 12, 0.934);
 
