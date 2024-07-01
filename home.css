@@ -190,6 +190,11 @@ span{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.abouts-con a{
+    color: white;
+    text-decoration: none;
+
+}
 .form{
     text-align: center;
     margin-top: 3em;
