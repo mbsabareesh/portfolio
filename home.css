@@ -204,10 +204,14 @@ span{
 
 }
 .form{
+    border: 2px solid white;
+    border-radius: 20px;
     text-align: center;
     color: white;
     margin-top: 3em;
     margin-bottom: 1em;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 36px;
 }
 .form form{
@@ -222,7 +226,7 @@ span{
     flex-wrap: wrap;
 }
 .form form .input-box input{
-    width: 700px;
+    width: 400px;
     padding: 1.5em;
     font-size: 18px;
     color: #000;
