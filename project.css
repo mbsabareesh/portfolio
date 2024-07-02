@@ -1,6 +1,84 @@
+*{
+    /* width: 100%; */
+    margin: 0px;
+    box-sizing: border-box;
+}
 body{
     background-image: url(IMAGE/bg.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+.header{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    /*background:rgba(0, 0, 0, 0.87);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.wave span{
+    color:rgba(12, 231, 12, 0.934);
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    animation: wave 1s infinite;
+    animation-delay: calc(.1s * var(--1));
+}
+@keyframes wave{
+    0%,
+    40%,
+    100%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: rgba(12, 231, 12, 0.934);
+}
+span{
+    color: rgba(12, 231, 12, 0.934);
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:rgba(12, 231, 12, 0.934);
+}
+.contact{
+    padding: 10px 28px;
+    background: white;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: rgba(12, 231, 12, 0.934);
+    box-shadow: 0 0 2px rgba(12, 231, 12, 0.934);
+    color: white;
 }
