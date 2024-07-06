@@ -82,4 +82,36 @@ span{
     box-shadow: 0 0 2px rgba(12, 231, 12, 0.934);
     color: white;
 }
+.education{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+h1{
+    font-size: 52px;
+    color: white;
+    line-height: 1.2;
+}
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.box{
+    width: 25rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    position: relative;
+    font-size: large;
+    transition: 2s;
+}
+.box:hover{
+    transform: scale(1.2);
+
+}
 
