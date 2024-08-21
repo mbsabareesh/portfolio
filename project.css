@@ -82,3 +82,62 @@ span{
     box-shadow: 0 0 2px rgba(12, 231, 12, 0.934);
     color: white;
 }
+.abouts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+    gap: 10em;
+    /*background: #000; */
+}
+.abouts-img img{
+    position: relative;
+    width: 300px;
+    box-shadow: 0 0 25px rgba(12, 231, 12, 0.934);
+    box-shadow: 0 0 50px rgba(12, 231, 12, 0.934);
+    border-radius: 20px;
+    transition: 2s;
+    background-color: white;
+}
+.abouts-img img:hover{
+    transform: scale(1.2);
+}
+.abouts-con h2{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+.abouts-con h3{
+    font-size: 25px;
+    color: white;
+}
+.abouts-con p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.abouts-con a{
+    color: white;
+    text-decoration: none;
+}
+.abouts button{
+    padding: 15px 28px;
+    background-color: black; 
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+.abouts button:hover{
+    background-color:rgba(12, 231, 12, 0.934);
+    color: #000;
+    border: 2px solid white;
+}
+
