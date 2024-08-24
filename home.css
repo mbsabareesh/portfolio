@@ -205,14 +205,15 @@ span{
 
 }
 .form{
+    width: 900px;
+    height: 800px;
     border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     color: white;
     margin-top: 3em;
     margin-bottom: 1em;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15%;
     font-size: 36px;
 }
 .form form{
@@ -302,3 +303,89 @@ span{
     transition: 0.3s ease;
 
 }
+
+/* education */
+.education{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+h1{
+    font-size: 52px;
+    color: white;
+    line-height: 1.2;
+}
+.edu{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.box{
+    width: 25rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    position: relative;
+    font-size: large;
+    transition: 2s;
+}
+.box:hover{
+    transform: scale(1.2);
+
+}
+
+/* project */
+.abouts-img img{
+    position: relative;
+    width: 300px;
+    box-shadow: 0 0 25px rgba(12, 231, 12, 0.934);
+    box-shadow: 0 0 50px rgba(12, 231, 12, 0.934);
+    border-radius: 20px;
+    transition: 2s;
+    background-color: white;
+}
+.abouts-img img:hover{
+    transform: scale(1.2);
+}
+.abouts-con h2{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+.abouts-con h3{
+    font-size: 25px;
+    color: white;
+}
+.abouts-con p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.abouts-con a{
+    color: white;
+    text-decoration: none;
+}
+.abouts button{
+    padding: 15px 28px;
+    background-color: black; 
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+.abouts button:hover{
+    background-color:rgba(12, 231, 12, 0.934);
+    color: #000;
+    border: 2px solid white;
+}
+
