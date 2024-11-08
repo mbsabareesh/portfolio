@@ -389,3 +389,116 @@ h1{
     border: 2px solid white;
 }
 
+
+
+/* Mobile devices (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .home-con h1 {
+        font-size: 19px;
+        padding-left: 1px;
+        padding-right: 5px;
+    }
+
+    .home-con p {
+        font-size: 6px;
+        margin-right: 5px;
+        
+    }
+
+    .btn-box {
+        display: flex;
+        flex-direction: column;
+        width: 10px;
+        height: 10px;
+        font-size: small;
+        align-items: start;
+    }
+
+    .img-box img {
+        width: 100px;
+        height: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+    .abouts-con h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .abouts-con p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .abouts-img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .edu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edu .box {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form .input-box {
+        flex-direction: column;
+    }
+
+    .form .input-box input,
+    .form textarea {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list li {
+        margin-bottom: 10px;
+    }
+}
