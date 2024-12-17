@@ -393,47 +393,40 @@ h1{
 
 /* Mobile devices (max-width: 600px) */
 @media only screen and (max-width: 600px) {
+    /* Header adjustments */
     .header {
         flex-direction: column;
         align-items: center;
     }
-
     .logo {
         font-size: 24px;
     }
-
     .navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .navbar a {
         padding: 10px;
         font-size: 10px;
     }
 
+    /* Home section */
     .home-con h1 {
         font-size: 19px;
         padding-left: 1px;
         padding-right: 5px;
     }
-
     .home-con p {
         font-size: 6px;
         margin-right: 5px;
-        
     }
-
     .btn-box {
         display: flex;
         flex-direction: column;
-        width: 10px;
-        height: 10px;
-        font-size: small;
+        width: auto;
         align-items: start;
     }
-
     .img-box img {
         width: 100px;
         height: 100px;
@@ -441,27 +434,24 @@ h1{
         margin-top: 20px;
     }
 
+    /* About and Education sections */
     .abouts-con h2 {
         font-size: 24px;
         text-align: center;
     }
-
     .abouts-con p {
         font-size: 16px;
         text-align: center;
     }
-
     .abouts-img img {
         width: 100%;
         max-width: 300px;
     }
-
     .edu {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .edu .box {
         width: 100%;
         max-width: 300px;
@@ -469,36 +459,37 @@ h1{
         margin-bottom: 20px;
     }
 
+    /* Form section */
     .form {
         padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
-
     .form .input-box {
         flex-direction: column;
     }
-
     .form .input-box input,
     .form textarea {
         width: 100%;
         margin-bottom: 15px;
     }
 
+    /* Footer adjustments */
     .footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     .social {
         margin-bottom: 20px;
     }
-
     .list {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .list li {
         margin-bottom: 10px;
     }
 }
+
